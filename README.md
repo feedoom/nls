@@ -13,7 +13,7 @@ sudo apt update
 apt install nodejs
 ```
 
-本地安装：
+还没上传到 npm 上请本地安装：
 ```
 git clone https://gitee.com/feedoom/nls
 cd nls
