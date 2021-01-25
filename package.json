@@ -1,0 +1,19 @@
+{
+  "name": "nls",
+  "version": "1.0.0",
+  "bin": {
+    "nls": "./bin/nls.js"
+  },
+  "description": "",
+  "main": "./bin/nls.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-mode-to-string": "0.0.2",
+    "userid": "^1.0.0-beta.8"
+  }
+}
