@@ -21,6 +21,8 @@ npm install
 npm install -g .
 ```
 
+显示字体图标需要 [nerd-fonts 字体](https://github.com/ryanoasis/nerd-fonts)
+
 命令:
 ```shell
 $ nls
