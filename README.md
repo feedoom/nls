@@ -16,6 +16,12 @@ npm install -g .
 ```
 
 命令:
-```
+```shell
 nls
+// 输出隐藏文件
+nls -a
+// 输出文件的详细信息
+nls -l
+// 输出文件的图标
+nls -i
 ```
