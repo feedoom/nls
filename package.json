@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.0",
     "fs-mode-to-string": "0.0.2",
     "userid": "^1.0.0-beta.8"
   }
