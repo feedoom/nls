@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 const cli = require("../lib/cli.js")
-const nls = require("../lib/nls.js")
+const colorls = require("../lib/colorls")
 
 const options = cli(process.argv)
 
-nls(options)
+colorls(options)

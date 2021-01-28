@@ -1,12 +1,12 @@
 {
-  "name": "nls",
+  "name": "colorls",
   "author": {
     "name": "feedoom",
     "url": "https://github.com/feedoom"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/feedoom/nls.git"
+    "url": "https://github.com/feedoom/colorls.git"
   },
   "description": "The colorful ls command",
   "keywords": [
@@ -20,9 +20,9 @@
   ],
   "version": "1.0.0",
   "bin": {
-    "nls": "./bin/nls.js"
+    "colorls": "./bin/colorls.js"
   },
-  "main": "./bin/nls.js",
+  "main": "./bin/colorls.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
