@@ -32,4 +32,12 @@ $ nls -a
 $ nls -l
 // 输出文件的图标
 $ nls -i
+// 输出多个文件夹
+$ nls -i dir1/ dir2/
+```
+
+替代 ls
+```
+alias ls='nls -i'
+alias ll='nls -i -l'
 ```
