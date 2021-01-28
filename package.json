@@ -1,19 +1,35 @@
 {
   "name": "nls",
+  "author": {
+    "name": "feedoom",
+    "url": "https://github.com/feedoom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feedoom/nls.git"
+  },
+  "description": "The colorful ls command",
+  "keywords": [
+    "color",
+    "command-line",
+    "terminal",
+    "ls",
+    "node",
+    "icons",
+    "nerd-fonts"
+  ],
   "version": "1.0.0",
   "bin": {
     "nls": "./bin/nls.js"
   },
-  "description": "",
   "main": "./bin/nls.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
+    "cli-columns": "^3.1.2",
     "fs-mode-to-string": "0.0.2",
     "userid": "^1.0.0-beta.8"
   }
