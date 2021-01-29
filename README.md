@@ -1,12 +1,42 @@
-<div align='center'><b><font size=8 color='green'>nls</font></b></div>
-<div align='center'><b><font size=1 color='blue'>美化是第一生产力！</font></b></div>
+<img src="https://s3.ax1x.com/2021/01/29/yCvBIU.png" div align=right />
+
+<div align='center'><b><font size=1 color='blue'>美化是第一生产力！</font></b></div> 
 
 
 `nls` 是用 node.js 编写的命令行工具，用来代替 Linux 下的 `ls` 命令
 
 * 拥有颜色高亮，图标显示等功能
 
-![nls](./Pictures/nls.png)
+## 命令:
+```shell
+// 带图标显示
+$ nls -i
+```
+<img src="https://s3.ax1x.com/2021/01/29/yCv0aT.png" div align=right />
+
+```shell
+// 显示文件夹的背景色
+$ nls -i -fb
+```
+<img src="https://s3.ax1x.com/2021/01/29/yCvsG4.png" div align=right />
+
+```shell
+// 显示隐藏文件
+$ nls -i -fb -a
+```
+<img src="https://s3.ax1x.com/2021/01/29/yCvriF.png" div align=right />
+
+```shell
+// 显示多个文件夹
+$ nls -i -a dir1/ dir2/
+```
+<img src="https://s3.ax1x.com/2021/01/29/yCvyRJ.png" div align=right />
+
+```shell
+// 显示文件的详细信息
+$ nls -i -fb -a -l
+```
+<img src="https://s3.ax1x.com/2021/01/29/yCv6z9.png" div align=right />
 
 
 ## 安装
@@ -33,26 +63,6 @@ npm install -g .
 ```
 
 显示字体图标需要 [nerd-fonts 字体](https://github.com/ryanoasis/nerd-fonts)
-
-## 命令:
-```shell
-$ nls
-
-// 显示隐藏文件
-$ nls -a
-
-// 显示文件的图标
-$ nls -i
-
-// 显示文件夹的背景色
-$ nls -fb
-
-// 显示文件的详细信息
-$ nls -l
-
-// 显示多个文件夹
-$ nls -i dir1/ dir2/
-```
 
 ## 替代 ls
 ```
