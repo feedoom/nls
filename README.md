@@ -5,7 +5,7 @@
 
 `nls` 是用 node.js 编写的命令行工具，用来代替 Linux 下的 `ls` 命令
 
-* 拥有颜色高亮，图标显示等功能
+* 拥有颜色高亮，图标显示等功能  
 
 ## 命令:
 ```shell
@@ -27,6 +27,12 @@ $ nls -i -fb -a
 <img src="https://s3.ax1x.com/2021/01/29/yCvriF.png" div align=right />
 
 ```shell
+// 按文件类型排序
+$ nls -i -fb -s
+```
+<img src="https://s3.ax1x.com/2021/02/03/yM5PZd.png" div align=right />
+
+```shell
 // 显示多个文件夹
 $ nls -i -a dir1/ dir2/
 ```
@@ -38,7 +44,7 @@ $ nls -i -fb -a -l
 ```
 <img src="https://s3.ax1x.com/2021/01/29/yCv6z9.png" div align=right />
 
-
+  
 ## 安装
 尽量使用较新的 node
 
@@ -63,6 +69,9 @@ npm install -g .
 ```
 
 显示字体图标需要 [nerd-fonts 字体](https://github.com/ryanoasis/nerd-fonts)
+
+## 配色
+想用自己的配色，可修改`./lib/color.js`，再本地安装
 
 ## 替代 ls
 ```
