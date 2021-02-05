@@ -42,6 +42,12 @@ $ nls -i -fb -s -g
 <img src="https://s3.ax1x.com/2021/02/05/y8AbkD.png" div align=right />
 
 ```shell
+// 递归显示子目录
+$ nls -i -fb -s -g -r
+```
+<img src="https://s3.ax1x.com/2021/02/05/yJPECj.png" div align=right />
+
+```shell
 // 显示多个文件夹
 $ nls -i -a dir1/ dir2/
 ```
