@@ -1,3 +1,6 @@
+<div align="center">
+
+</div>
 <img src="https://s3.ax1x.com/2021/01/29/yCvBIU.png" div align=right />
   
 <div align='center'><b><font size=1 color='blue'>美化是第一生产力！</font></b></div> 
@@ -89,3 +92,8 @@ alias ll='nls -i -l'
 * [chalk](https://github.com/chalk/chalk)
 * [cli-columns](https://github.com/shannonmoeller/cli-columns)
 * [fs-mode-to-string](https://github.com/AndreasPizsa/fs-mode-to-string)
+
+## 灵感
+* [exa] (https://github.com/ogham/exa)
+* [color-ls] (https://github.com/monsterkodi/color-ls)
+* [colorls] (https://github.com/husnulhamidiah/colorls)
