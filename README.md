@@ -1,105 +1,96 @@
 <div align="center">
+<h1>nls</h1>
 
+`nls` 是一个漂亮的 `ls` 工具
+*美化是第一生产力！*
 </div>
-<img src="https://s3.ax1x.com/2021/01/29/yCvBIU.png" div align=right />
-  
-<div align='center'><b><font size=1 color='blue'>美化是第一生产力！</font></b></div> 
+
+![nls logo](picture/nls_logo.png)
+
+---
+
+**nls** 是用 `node` 编写的命令行工具，用来替代 Unix 和 Linux 的 `ls` 命令，用不同的颜色和图标区分不同的文件和数据。
+
+---
+
+<h1>命令参数</h1>
+
+- **-i**: 显示图标
+- **-fb**: 文件夹显示背景色
+- **-l**: 显示文件的详细信息和属性
+- **-a**: 显示隐藏的文件
+- **-s**: 文件按字母顺序排序再按`隐藏文件 -> 文件夹 -> 软链接 -> 文件`排序
+- **-g**: 按 .gitignore 文件隐藏文件
+- **-r**: 递归显示目录内容
+- **-t**: 递归显示文件树
 
 
-`nls` 是用 node.js 编写的命令行工具，用来代替 Linux 下的 `ls` 命令
+### TODO
+- [ ] 完善 `-g` 参数功能，目前只能在 `./` 目录中生效
+- [ ] 完善 `-t` 参数功能，现在只用缩进显示树功能
 
-* 拥有颜色高亮，图标显示等功能  
+---
 
-## 命令:
-```shell
-// 带图标显示
-$ nls -i
-```
-<img src="https://s3.ax1x.com/2021/01/29/yCv0aT.png" div align=right />
+<h1>效果图</h1>
 
-```shell
-// 显示文件夹的背景色
-$ nls -i -fb
-```
-<img src="https://s3.ax1x.com/2021/01/29/yCvsG4.png" div align=right />
+* -i -fb -a 参数
+<div align="center">
+<img src="./picture/nls_fb_a.png">
+</div>
+* -s 参数
+<div align="center">
+<img src="./picture/nls_s_i_fb.png">
+</div>
+* -l 参数
+<div align="center">
+<img src="./picture/nls_fb_a_l.png">
+</div>
+* -g 参数
+<div align="center">
+<img src="./picture/nls_g.png">
+</div>
+* -r 参数
+<div align="center">
+<img src="./picture/nls_r.png">
+</div>
 
-```shell
-// 显示隐藏文件
-$ nls -i -fb -a
-```
-<img src="https://s3.ax1x.com/2021/01/29/yCvriF.png" div align=right />
+---
 
-```shell
-// 按文件类型排序
-$ nls -i -fb -s
-```
-<img src="https://s3.ax1x.com/2021/02/03/yM5PZd.png" div align=right />
+<h1>安装</h1>
 
-```shell
-// 根据 .gitignore 忽略文件
-$ nls -i -fb -s -g
-```
-<img src="https://s3.ax1x.com/2021/02/05/y8AbkD.png" div align=right />
+nls 可以安装再 macOS 和 Linux.
 
-```shell
-// 递归显示子目录
-$ nls -i -fb -s -g -r
-```
-<img src="https://s3.ax1x.com/2021/02/05/yJPECj.png" div align=right />
+### npm 安装
 
-```shell
-// 显示多个文件夹
-$ nls -i -a dir1/ dir2/
-```
-<img src="https://s3.ax1x.com/2021/01/29/yCvyRJ.png" div align=right />
+    $ npm install -g @feedoom/nls
 
-```shell
-// 显示文件的详细信息
-$ nls -i -fb -a -l
-```
-<img src="https://s3.ax1x.com/2021/01/29/yCv6z9.png" div align=right />
+### 本地安装
 
-  
-## 安装
-尽量使用较新的 node
+    $ git clone https://gitee.com/feedoom/nls
+    $ cd nls
+    $ npm install
+    $ npm install -g .
 
-ubuntu:
-```
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt update
-apt install nodejs
-```
-
-npm 安装:
-```
-npm install -g @feedoom/nls
-```
-
-本地安装:
-```
-git clone https://gitee.com/feedoom/nls
-cd nls
-npm install
-npm install -g .
-```
-
+### nerd-fonts 字体
 显示字体图标需要 [nerd-fonts 字体](https://github.com/ryanoasis/nerd-fonts)
 
-## 配色
+### 配色
 想用自己的配色，可修改`./lib/color.js`，再本地安装
 
-## 替代 ls
+---
+
+### 替代 ls
 ```
 alias ls='nls -i'
 alias ll='nls -i -l'
 ```
 
-## npm dependencies
+### npm dependencies
 * [chalk](https://github.com/chalk/chalk)
 * [cli-columns](https://github.com/shannonmoeller/cli-columns)
 * [fs-mode-to-string](https://github.com/AndreasPizsa/fs-mode-to-string)
 
-## 灵感
-* [exa] (https://github.com/ogham/exa)
-* [color-ls] (https://github.com/monsterkodi/color-ls)
-* [colorls] (https://github.com/husnulhamidiah/colorls)
+### 灵感
+* [exa](https://github.com/ogham/exa)
+* [color-ls](https://github.com/monsterkodi/color-ls)
+* [colorls](https://github.com/husnulhamidiah/colorls)
