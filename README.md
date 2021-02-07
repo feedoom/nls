@@ -2,6 +2,7 @@
 <h1>nls</h1>
 
 `nls` 是一个漂亮的 `ls` 工具
+
 *美化是第一生产力！*
 </div>
 
@@ -33,23 +34,23 @@
 
 <h1>效果图</h1>
 
-* -i -fb -a 参数
+- `-i -fb -a` 参数
 <div align="center">
 <img src="./picture/nls_fb_a.png">
 </div>
-* -s 参数
+- `-s` 参数
 <div align="center">
 <img src="./picture/nls_s_i_fb.png">
 </div>
-* -l 参数
+- `-l` 参数
 <div align="center">
 <img src="./picture/nls_fb_a_l.png">
 </div>
-* -g 参数
+- `-g` 参数
 <div align="center">
 <img src="./picture/nls_g.png">
 </div>
-* -r 参数
+- `-r` 参数
 <div align="center">
 <img src="./picture/nls_r.png">
 </div>
