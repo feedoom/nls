@@ -38,18 +38,22 @@
 <div align="center">
 <img src="./picture/nls_fb_a.png">
 </div>
+
 - `-s` 参数
 <div align="center">
 <img src="./picture/nls_s_i_fb.png">
 </div>
+
 - `-l` 参数
 <div align="center">
 <img src="./picture/nls_fb_a_l.png">
 </div>
+
 - `-g` 参数
 <div align="center">
 <img src="./picture/nls_g.png">
 </div>
+
 - `-r` 参数
 <div align="center">
 <img src="./picture/nls_r.png">
