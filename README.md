@@ -6,7 +6,7 @@
 </div>
 
 ![nls logo](picture/nls_logo.png)
-*美化是第一生产力！*
+<div align="center"> *美化是第一生产力！* </div>
 
 ---
 
