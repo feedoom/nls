@@ -2,11 +2,11 @@
 <h1>nls</h1>
 
 `nls` 是一个漂亮的 `ls` 工具
+*美化是第一生产力！*
 
 </div>
 
 ![nls logo](picture/nls_logo.png)
-<div align="center"> *美化是第一生产力！* </div>
 
 ---
 
@@ -70,6 +70,13 @@
 <h1>安装</h1>
 
 nls 可以安装再 macOS 和 Linux.
+
+### node.js 安装
+需要安装 node.js
+
+    $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+    $ sudo apt update
+    $ apt install nodejs
 
 ### npm 安装
 
