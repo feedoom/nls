@@ -59,6 +59,12 @@
 <img src="./picture/nls_r.png">
 </div>
 
+- `-t` 参数
+<div align="center">
+<img src="./picture/nls_t.png">
+<img src="./picture/nls_l_t.png">
+</div>
+
 ---
 
 <h1>安装</h1>
