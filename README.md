@@ -26,7 +26,8 @@
 - **-g**: 按 .gitignore 文件隐藏文件
 - **-r**: 递归显示目录内容
 - **-t**: 递归显示文件树
-- **-I 'regexp'**: 根据参数后的正则表达式，忽略文件，比如 `-I '*.class'`，后面有效果图
+- **-I 'regexp'**: 根据参数后的正则表达式，忽略文件，比如 `-I '*.class'`，后面有效果图。要忽略的文件的正则表达式必须跟在 `- I` 参数后，且用 `'`或`"`包围起来
+- **-gs**: 在文件后面显示该文件的 git status。*该参数功能还未完成*
 
 
 ### TODO
@@ -70,6 +71,11 @@
 <div align="center">
 <img src="./picture/nls_t.png">
 <img src="./picture/nls_l_t.png">
+</div>
+
+- `-gs` 参数
+<div align="center">
+<img src="./picture/nls_gs.png">
 </div>
 
 ---
