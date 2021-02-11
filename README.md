@@ -7,7 +7,7 @@
 
 </div>
 
-![nls logo](picture/nls_logo.png)
+![nls logo](https://www.hualigs.cn/image/6024ce200d985.jpg)
 
 ---
 
@@ -32,6 +32,7 @@
 
 ### TODO
 - [ ] 完善 `-t` 参数功能，现在的文件树是默认添加了 `-s` 参数进行排序再生成的
+- [ ] 同时使用 `-gs -t` 或 `-gs -t` 读取多个目录会有问题。但是读取一个目录没问题
 
 ---
 
@@ -39,44 +40,44 @@
 
 - `-i -fb -a` 参数
 <div align="center">
-<img src="./picture/nls_fb_a.png">
+<img src="https://www.hualigs.cn/image/6024ce60727bb.jpg">
 </div>
 
 - `-s` 参数
 <div align="center">
-<img src="./picture/nls_s_i_fb.png">
+<img src="https://www.hualigs.cn/image/6024ce9922a6f.jpg">
 </div>
 
 - `-l` 参数
 <div align="center">
-<img src="./picture/nls_fb_a_l.png">
+<img src="https://www.hualigs.cn/image/6024cec876144.jpg">
 </div>
 
 - `-g` 参数
 <div align="center">
-<img src="./picture/nls_g.png">
+<img src="https://www.hualigs.cn/image/6024cd65d14f8.jpg">
 </div>
 
 - `-r` 参数
 <div align="center">
-<img src="./picture/nls_r.png">
+<img src="https://www.hualigs.cn/image/6024cf3579dc6.jpg">
 </div>
 
 - `-I` 参数
 <div align="center">
-<img src="./picture/nls_I.png">
+<img src="https://www.hualigs.cn/image/6024d0cbcc6de.jpg">
 </div>
 
 - `-t` 参数
 <div align="center">
-<img src="./picture/nls_t.png">
-<img src="./picture/nls_l_t.png">
+<img src="https://www.hualigs.cn/image/6024cfa8934d8.jpg">
+<img src="https://www.hualigs.cn/image/6024cfc565bc8.jpg">
 </div>
 
 - `-gs` 参数。文件的 git 状态(status)如下
 <div align="center">
-<img src="./picture/nls_file_git_status.png">
-<img src="./picture/nls_gs_i.png">
+<img src="https://www.hualigs.cn/image/6024cfda9b3f9.jpg">
+<img src="https://www.hualigs.cn/image/6024cff962a60.jpg">
 </div>
 
 ---
