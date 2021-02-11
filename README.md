@@ -121,6 +121,9 @@ alias ll='nls -i -l'
 * [chalk](https://github.com/chalk/chalk)
 * [cli-columns](https://github.com/shannonmoeller/cli-columns)
 * [fs-mode-to-string](https://github.com/AndreasPizsa/fs-mode-to-string)
+* [g-status](https://github.com/luftywiranda13/g-status)
+* [ignore](https://github.com/kaelzhang/node-ignore)
+* [parse-gitignore](https://github.com/jonschlinkert/parse-gitignore)
 
 ### 灵感
 * [exa](https://github.com/ogham/exa)
