@@ -76,7 +76,7 @@
 - `-gs` 参数。文件的 git 状态(status)如下
 <div align="center">
 <img src="./picture/nls_file_git_status.png">
-<img src="./picture/nls_gs.png">
+<img src="./picture/nls_gs_i.png">
 </div>
 
 ---
