@@ -84,7 +84,7 @@
 
 <h1>安装</h1>
 
-nls 可以安装再 macOS 和 Linux.
+nls 可以安装在 macOS 和 Linux.
 
 ### node.js 安装
 需要安装 node.js
