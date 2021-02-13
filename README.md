@@ -74,9 +74,9 @@
 <img src="https://www.hualigs.cn/image/6024cfc565bc8.jpg">
 </div>
 
-- `-gs` 参数。文件的 git 状态(status)如下
+- `-gs` 参数。文件的 git 状态(status) 如下
 <div align="center">
-<img src="https://www.hualigs.cn/image/6024cfda9b3f9.jpg">
+<img src="https://www.hualigs.cn/image/6027b4e51a125.jpg">
 <img src="https://www.hualigs.cn/image/6024cff962a60.jpg">
 </div>
 
